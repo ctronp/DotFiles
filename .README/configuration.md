@@ -11,7 +11,7 @@ algunas fonts pueden ser retiradas.
 sudo pacman -S zsh alacritty udiskie ntfs-3g vlc python-pip ttf-dejavu ttf-liberation ttf-droid ttf-croscore gnu-free-fonts ttf-croscore noto-fonts noto-fonts-emoji noto-fonts-cjk noto-fonts-extra xorg-fonts-misc xorg-server lightdm lightdm-gtk-greeter lightdm-webkit2-greeter xorg-xinit xorg-xrandr git firefox xdg-utils arandr zip unzip exa fish nodejs npm neovim ranger flameshot xsel fzf ripgrep fd the_silver_searcher ruby rubygems prettier scrot imagemagick rofi pulseaudio pavucontrol notification-daemon
 ```
 
-los paquetes pueden ser revisados en mas detalle [aqui](.README/paquetes.md)
+los paquetes pueden ser revisados en mas detalle [aqui](paquetes.md)
 
 - pudimos descargar vscode con ```code``` pero recomiendo bajarlo por [snap](https://snapcraft.io/install/code/arch) para anadir el codigo propietario.
 
