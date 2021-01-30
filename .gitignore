@@ -5,3 +5,5 @@
 
 # Except for:
 !.config
+!.README
+!README.md
