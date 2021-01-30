@@ -17,7 +17,7 @@ los paquetes pueden ser revisados en mas detalle [aqui](paquetes.md)
 
 - tambien es posible anadir xorg-apps en caso de que algunas aplicaciones lo necesiten.
 
-descargamos los siguientes paquetes de forma recomendada
+descargamos los siguientes paquetes de forma recomendada, solo en caso de que tengas grafica nvidia y te interese el codigo en cuda o ML.
 
 ```shell
 sudo pacman -S nvidia lib32-nvidia-utils cuda cudnn htop neofetch neovim flac
@@ -53,23 +53,7 @@ yay -S nerd-fonts-ubuntu-mono ccat universal-ctags-git
 recomendado para neovim/ranger (no recuerdo cual de los dos)
 
 ```shell
-pip install neovim ueberzug pylint
-```
-
-### descargas npm
-
-recomendado para neovim (js).
-
-```shell
-sudo npm i -g neovim
-```
-
-### descargas gem
-
-recomendado para neovim
-
-```shell
-gem install neovim
+pip install ueberzug pylint
 ```
 
 ## 2.- Habilitar qtile
@@ -100,16 +84,15 @@ para ejecutar programas
 Mod4(Win) + 'r'
 ```
 
-para cambiar bash por zsh o fish
+para cambiar bash por fish
 
 ```shell
-chsh -s /bin/zsh
 chsh -s /bin/fish
 ```
 
 es posible ver todas las shells con ```chsh -l```
 
-Pendiente por redactar...
+## Pendiente por redactar... aun pendiente por redactar
 
 ```shell
 git clone este repositorio
