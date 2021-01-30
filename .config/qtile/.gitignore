@@ -1,0 +1,9 @@
+# Ignore Everything
+
+/*
+!.gitignore
+!.gitmodules
+
+# Except for:
+!config.py
+!autostart.sh
