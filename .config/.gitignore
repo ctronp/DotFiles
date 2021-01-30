@@ -4,3 +4,7 @@
 !.gitmodules
 
 # Except for:
+!mimeapps.list
+!picom.conf
+!udiskie
+!qtile
