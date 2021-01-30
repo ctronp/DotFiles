@@ -1,0 +1,6 @@
+# Ignore everything
+/*
+!.gitignore
+!.gitmodules
+
+# Except for:
