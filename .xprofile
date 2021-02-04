@@ -42,7 +42,7 @@ export QT_QPA_PLATFORMTHEME=gtk2
 # recordad cambiar permisos, dueno y grupo (chmod, chown, chgrp)
 
 # wallpaper
-feh --bg-scale ~/.wallpapers/neon1.jpg &
+$HOME/.config/nitrogen/nitrogenDay.bash && nitrogen  --restore &
 
 # transparencia
 picom &

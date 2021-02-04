@@ -1,0 +1,7 @@
+# Ignore Everything
+!.gitignore
+
+# Except
+!bg-saved.cfg
+!nitrogen.cfg
+!nitrogenDay.bash
