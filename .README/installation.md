@@ -69,6 +69,13 @@ obligatorio:
 pacman -S nano sudo grub efibootmgr os-prober networkmanager intel-ucode/amd-ucode base-devel
 ```
 
+en caso de tener un [raid](https://wiki.archlinux.org/index.php/installation_guide#Initramfs)
+
+```shell
+pacman -S mdadm
+mkinitcpio -P
+```
+
 ejecutar:
 
 ```shell
@@ -91,6 +98,12 @@ Opcion alternativa aun no probada:
 
 ```shell
 grub-install --target=x86_64-efi --efi-directory=/efi --bootloader-id=Microsoft --recheck
+```
+
+finalmente generar la configuracion con
+
+```shell
+grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 ### Configuraciones adicionales antes de reiniciar
@@ -118,3 +131,5 @@ descomentar sudo:
 ```shell
 nano /etc/sudoers
 ```
+
+recomendado copiar git y realizar descargas de [configuration.md](configuration.md)
