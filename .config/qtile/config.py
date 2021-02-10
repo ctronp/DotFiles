@@ -168,7 +168,13 @@ screens = [
                     other_screen_border=["#0f101a","#0f101a"],
                     disable_drag=True
                 ),
-                widget.Prompt(),
+                widget.Prompt(
+                    fontsize=18,
+                    font='UbuntuMono Nerd Font Bold',
+                    foreground='#6ae6d3',
+                    cursor_color='#6ae6d3',
+                    background=["#0f101a","#0f101a"]
+                ),
                 widget.WindowName(
                         foreground=["#a151d3","#a151d3"],
                         background=["#0f101a","#0f101a"],
@@ -176,6 +182,7 @@ screens = [
                         font='UbuntuMono Nerd Font Bold',
                         ),
                 widget.Systray(
+                    background=["#0f101a","#0f101a"],
                     padding=6
                     ),
                 widget.Sep(
@@ -233,7 +240,7 @@ screens = [
                     format='%d-%m-%Y %I:%M %p'),
             ],
             26,
-            opacity=0.95,
+            opacity=0.92,
         ),
     ),Screen(
         top=bar.Bar(
@@ -303,7 +310,7 @@ screens = [
                     format='%d-%m-%Y %I:%M %p'),
             ],
             26,
-            opacity=0.95,
+            opacity=0.92,
         ),
     ),
 ]
