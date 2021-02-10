@@ -45,7 +45,7 @@ yay
 descargas obligatorias
 
 ```shell
-yay -S nerd-fonts-ubuntu-mono ccat universal-ctags-git
+yay -S nerd-fonts-ubuntu-mono ccat qt5-styleplugins
 ```
 
 ### descargas pip
@@ -128,7 +128,7 @@ pacman -S picom
 icono de volumen
 
 ```shell
-pacman -S volumeicon
+pacman -S kmix
 ```
 
 configurar monitores en arandr y almacenar en .xprofile
