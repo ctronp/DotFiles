@@ -84,11 +84,25 @@ chsh -s /bin/fish
 
 es posible ver todas las shells con ```chsh -l```
 
-## Pendiente por redactar... aun pendiente por redactar
+## Descargar este git.
 
 ```shell
-git clone este repositorio
-ln git_files ~/.config
+cd ~
+git remote add origin https://github.com/ctronp/dotfiles.git
+git pull --rebase origin main
+```
+
+en caso de error, por ejemplo al tomar el branch master (siguiente parte no comprobada)
+
+```shell
+git checkout main
+git branch -d master
+```
+
+en caso de ingresar la url erroneamente.
+
+```shell
+git remote set-url origin https://github.com/ctronp/dotfiles.git
 ```
 
 ### configuraciones manuales de programas
@@ -123,7 +137,7 @@ icono de volumen
 pacman -S kmix
 ```
 
-configurar monitores en arandr y almacenar en .xprofile
+arandr (configuracion de monitores, almacenar comando permanente en .xprofile)
 
 ```shell
 pacman -S arandr
@@ -167,32 +181,14 @@ modificar ~/.config/mimeapps.list para aplicaciones default
 se recomienda hacer un link de este a ~/.local/share/applications/mimeapps.list para aplicaciones antiguas
 
 ```shell
-ln -s ~/.config/mimeapps.list ~/.local/share/applications/mimeapps.list
+ln -sf ~/.config/mimeapps.list ~/.local/share/applications/mimeapps.list
 ```
 
 esto solucionara problemas como al abrir links desde telegram.
 
 ## instalacion de temas e iconos
 
-se descargan los temas de gtk y se copian a ~/.theme/
-se descargan los iconos de gtk y se copian a ~/.icons/
-
-las configuraciones de [gtk](https://wiki.archlinux.org/index.php/GTK#Configuration) (para aplicar los temas) se hacen en las siguientes ubicaciones:
-
-```shell
-~/.gtkrc-2.0
-~/.config/gtk-3.0/settings.ini
-```
-
-[tema e iconos](https://www.gnome-look.org/p/1316887/)
-
-en caso de tener problemas configurando temas se puede usar lxappearance
-
-para cursor de mouse descargar xcb-util-cursor
-
-```shell
-pacman -S xcb-util-cursor
-```
+para mas detalle de esta configuracion verificar el siguiente [link](themes.md)
 
 ## configuracion de fish
 
