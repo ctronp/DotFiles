@@ -61,3 +61,7 @@ flameshot &
 
 # numlock
 numlockx &
+
+# volume icon
+#volumeicon &
+kmix &
