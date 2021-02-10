@@ -142,13 +142,16 @@ widget_defaults = dict(
 )
 extension_defaults = widget_defaults.copy()
 
+backgroundColor = ["#0f101a","#0f101a"]
+
+
 screens = [
     Screen(
         top=bar.Bar(
             [
                 widget.GroupBox(
                     foreground=[ "#f1ffff", "#f1ffff"],
-                    background=["#0f101a","#0f101a"],
+                    background=backgroundColor,
                     font='UbuntuMono Nerd Font',
                     fontsize=19,
                     margin_y=3,
@@ -168,30 +171,35 @@ screens = [
                     other_screen_border=["#0f101a","#0f101a"],
                     disable_drag=True
                 ),
+                widget.Sep(
+                    linewidth=0,
+                    padding=6,
+                    background=backgroundColor,
+                    ),
                 widget.Prompt(
                     fontsize=18,
                     font='UbuntuMono Nerd Font Bold',
                     foreground='#6ae6d3',
                     cursor_color='#6ae6d3',
-                    background=["#0f101a","#0f101a"]
+                    background=backgroundColor
                 ),
                 widget.WindowName(
                         foreground=["#a151d3","#a151d3"],
-                        background=["#0f101a","#0f101a"],
+                        background=backgroundColor,
                         fontsize=18,
                         font='UbuntuMono Nerd Font Bold',
                         ),
                 widget.Systray(
-                    background=["#0f101a","#0f101a"],
+                    background=backgroundColor,
                     padding=6
                     ),
                 widget.Sep(
                     linewidth=0,
                     padding=6,
-                    background=["#0f101a","#0f101a"],
+                    background=backgroundColor,
                     ),
                 widget.TextBox(
-                    background=["#0f101a","#0f101a"],
+                    background=backgroundColor,
                     foreground=["#F07178","#F07178"],
                     text="",
                     fontsize=37,
