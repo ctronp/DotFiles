@@ -44,8 +44,9 @@
 
 ## Paquetes yay
 
-no se que poner aun.
-
+|paquete|descripcion|
+|-|-|
+| qt5-styleplugins | paquete de adicionales de qt5, necesario para aplicar temas gtk correctamente |
 ## Paquetes pip
 
 |paquete|descripcion|
