@@ -188,10 +188,10 @@ screens = [
                 widget.Sep(
                     linewidth=0,
                     padding=6,
-                    background=None
+                    background=["#0f101a","#0f101a"],
                     ),
                 widget.TextBox(
-                    background=None,
+                    background=["#0f101a","#0f101a"],
                     foreground=["#F07178","#F07178"],
                     text="",
                     fontsize=37,
