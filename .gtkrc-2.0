@@ -1,3 +1,4 @@
-gtk-icon-theme-name = "mPIcons"
-gtk-theme-name = "mPTheme"
-gtk-font-name = "DejaVu Sans 11"
+gtk-theme-name="mPTheme"
+gtk-icon-theme-name="mPIcons"
+gtk-font-name="DejaVu Sans 11"
+gtk-cursor-theme-name="Adwaita"
