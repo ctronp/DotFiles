@@ -1,3 +1,9 @@
+# Custom mimeapps.list by ctronp (Carlos Troncoso Pizarro) 
+# mime list= /usr/share/mime
+# apps list= /usr/share/applications; /usr/local/share/applications/; ~/.local/share/applications/
+# https://wiki.archlinux.org/index.php/Desktop_entries
+
+
 [Added Associations]
 x-scheme-handler/tg=userapp-Telegram Desktop-UWYSW0.desktop;
 text/x-csrc=code_code.desktop;
@@ -5,18 +11,29 @@ text/x-csrc=code_code.desktop;
 [Removed Associations]
 
 [Default Applications]
+
 x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
+
 text/html=firefox.desktop
 x-scheme-handler/http=firefox.desktop
 x-scheme-handler/https=firefox.desktop
-application/pdf=firefox.desktop
+
+# image
 image/jpeg=feh.desktop
 image/png=feh.desktop
+
+
+# audio
 audio/mp2=vlc.desktop
 audio/mp4=vlc.desktop
 audio/mpeg=vlc.desktop
+audio/mpeg=vlc.desktop
 audio/x-mpegurl=vlc.desktop
+
+# pdf
+application/pdf=firefox.desktop
+
+# video
 video/mp4=vlc.video
 video/x-matroska=vlc.desktop
 video/x-matroska-3d=vlc.desktop
-x-scheme-handler/eclipse+command x-scheme-handler/eclipse+mpc=_usr_lib_eclipse_.desktop
