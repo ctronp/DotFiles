@@ -1,6 +1,7 @@
 # Descarga y configuracion de tema e iconos GTK
 
 [como obtener archivos GTK](https://wiki.archlinux.org/index.php/GTK#Configuration)
+
 [transferir estilos de GTK a Qt](https://wiki.archlinux.org/index.php/Uniform_look_for_Qt_and_GTK_applications)
 
 ## tema
@@ -19,8 +20,8 @@ mv ~/Downloads/Material-Black-Pistachio-3.36 ~/.themes/Material-Pistacho
 
 luego introducimos el nombre del tema en los siguientes archivos:
 
-- [.gtkrc-2.0](/../.gtkrc-2.0)
-- [.config/gtk-3.0/settings.ini](/../.config/gtk-3.0/settings.ini)
+- [.gtkrc-2.0](/.gtkrc-2.0)
+- [.config/gtk-3.0/settings.ini](/.config/gtk-3.0/settings.ini)
 
 ## iconos
 
