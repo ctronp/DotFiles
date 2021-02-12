@@ -14,7 +14,7 @@ feh --bg-scale $HOME/.wallpaper.jpg
 picom &
 
 # montar discos
-udiskie -t &
+udiskie -s &
 
 # network manager systray
 nm-applet &
