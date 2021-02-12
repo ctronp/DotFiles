@@ -58,16 +58,17 @@ keys = [
 
     # Reiniciar Qtile, Ejecutar comando
     Key([mod, ctrl], "r", lazy.restart(), desc="Reiniciar qtile"),
-    Key([mod], "r", lazy.spawncmd(),
-        desc="ejecucion"),
+    
     
     # Switch focus of monitors
     Key([mod], "period", lazy.next_screen()),
     Key([mod], "comma", lazy.prev_screen()),
     
     # rofi
-    Key([mod], 'q', lazy.spawn("rofi -show run")),
+    Key([mod], 'q', lazy.spawn("rofi -show drun")),
+    Key([mod], 'r', lazy.spawn("rofi -show run")),
     Key([mod, shift], 'q', lazy.spawn("rofi -show")),
+    #Key([mod], "r", lazy.spawncmd(), desc="ejecucion"),
     
     # Audios de teclado/notebook
     Key([], "XF86AudioLowerVolume", lazy.spawn(
