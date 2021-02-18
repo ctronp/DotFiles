@@ -17,6 +17,9 @@ text/html=firefox.desktop
 x-scheme-handler/http=firefox.desktop
 x-scheme-handler/https=firefox.desktop
 
+# texto plano
+text/plain=notepadqq.desktop
+
 # image
 image/jpeg=feh.desktop
 image/png=feh.desktop
