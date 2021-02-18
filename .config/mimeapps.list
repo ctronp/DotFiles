@@ -5,7 +5,6 @@
 
 
 [Added Associations]
-x-scheme-handler/tg=userapp-Telegram Desktop-UWYSW0.desktop;
 text/x-csrc=code_code.desktop;
 
 [Removed Associations]
@@ -22,18 +21,17 @@ x-scheme-handler/https=firefox.desktop
 image/jpeg=feh.desktop
 image/png=feh.desktop
 
-
 # audio
 audio/mp2=vlc.desktop
 audio/mp4=vlc.desktop
 audio/mpeg=vlc.desktop
-audio/mpeg=vlc.desktop
 audio/x-mpegurl=vlc.desktop
 
 # pdf
-application/pdf=firefox.desktop
+application/pdf=okularApplication_pdf.desktop
 
 # video
 video/mp4=vlc.video
 video/x-matroska=vlc.desktop
 video/x-matroska-3d=vlc.desktop
+x-scheme-handler/tg=userapp-Telegram Desktop-N72RY0.desktop
