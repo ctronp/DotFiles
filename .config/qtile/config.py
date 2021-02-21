@@ -84,7 +84,8 @@ keys = [
     Key([], "XF86MonBrightnessDown", lazy.spawn("brightnessctl set 10%-")),
     
     # Screenshot
-    Key([mod], "s", lazy.spawn("scrot")),
+    Key([mod], "s", lazy.spawn("flameshot gui")),
+    Key([mod, shift], "s", lazy.spawn("flameshot full -c")),
     
     # test
     #Key([mod], "t", lazy.screen.next_group()),
