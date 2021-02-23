@@ -5,8 +5,6 @@ alias lsa "exa -la --group-directories-first"
 alias tree "exa -T"
 alias cat "ccat"
 alias gitm "git commit -m"
-alias upt "sudo pacman -Sy && sudo pacman -Syu && yay -Sy && yay - Syu"
-
 
 
 # funcion para sudo !!
