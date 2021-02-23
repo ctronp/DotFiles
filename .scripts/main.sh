@@ -19,7 +19,8 @@ sudo pacman -S --needed fish alacritty udiskie ntfs-3g vlc python-pip ttf-dejavu
 ttf-croscore ttf-fira-code gnu-free-fonts noto-fonts noto-fonts-emoji noto-fonts-cjk noto-fonts-extra \ 
 xorg-server lightdm lightdm-gtk-greeter lightdm-webkit2-greeter xorg-xinit xorg-xrandr git firefox \ 
 xdg-utils arandr zip unzip exa ranger flameshot ripgrep fd prettier imagemagick rofi pulseaudio \ 
-pavucontrol notification-daemon okular calibre poppler notepadqq chromium qtile kmix
+pavucontrol notification-daemon okular calibre poppler notepadqq chromium qtile kmix feh picom \ 
+network-manager-applet libnotify
 
 # Instalacion de gestores de paquetes
 
@@ -37,3 +38,7 @@ yay -S nerd-fonts-ubuntu-mono ccat qt5-styleplugins
 
 sudo systemctl enable lightdm
 chsh -s /bin/fish
+
+ln -sf $HOME/.config/mimeapps.list $HOME/.local/share/applications/mimeapps.list
+curl -L https://get.oh-my.fish | fish
+omf install spacefish

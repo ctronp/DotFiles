@@ -8,7 +8,7 @@ descargamos los siguientes paquetes de forma obligatoria (incluire los de la ins
 algunas fonts pueden ser retiradas.
 
 ```shell
-sudo pacman -S fish alacritty udiskie ntfs-3g vlc python-pip ttf-dejavu ttf-liberation ttf-droid ttf-croscore ttf-fira-code gnu-free-fonts noto-fonts noto-fonts-emoji noto-fonts-cjk noto-fonts-extra xorg-server lightdm lightdm-gtk-greeter lightdm-webkit2-greeter xorg-xinit xorg-xrandr git firefox xdg-utils arandr zip unzip exa ranger flameshot ripgrep fd prettier imagemagick rofi pulseaudio pavucontrol notification-daemon okular calibre poppler notepadqq
+sudo pacman -S fish alacritty udiskie ntfs-3g vlc python-pip ttf-dejavu ttf-liberation ttf-droid ttf-croscore ttf-fira-code gnu-free-fonts noto-fonts noto-fonts-emoji noto-fonts-cjk noto-fonts-extra xorg-server lightdm lightdm-gtk-greeter lightdm-webkit2-greeter xorg-xinit xorg-xrandr git firefox xdg-utils arandr zip unzip exa ranger flameshot ripgrep fd prettier imagemagick rofi pulseaudio pavucontrol notification-daemon okular calibre poppler notepadqq chromium qtile kmix feh picom network-manager-applet libnotify
 ```
 
 los paquetes pueden ser revisados en mas detalle [aqui](paquetes.md)
@@ -56,7 +56,7 @@ instalamos qtile
 sudo pacman -S qtile
 ```
 
-habilitamos lightd como display manager
+habilitamos lightdm como display manager
 
 ```shell
 sudo systemctl enable lightdm
@@ -110,13 +110,13 @@ git remote set-url origin https://github.com/ctronp/dotfiles.git
 audio (recomendado reinicial luego de instalar)
 
 ```shell
-pacman -S pulseaudio pavucontrol
+pacman -S --needed pulseaudio pavucontrol
 ```
 
 wallpaper
 
 ```shell
-pacman -S feh
+pacman -S --needed feh
 ```
 
 brillo
@@ -210,5 +210,5 @@ omf themes
 instalar un tema
 
 ```shell
-imf install spacefish
+omf install spacefish
 ```
