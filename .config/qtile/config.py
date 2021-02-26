@@ -60,6 +60,9 @@ keys = [
     Key([mod, ctrl], "r", lazy.restart(), desc="Reiniciar qtile"),
     
     
+    # Explorador de archivos
+    Key([mod], "e", lazy.spawn("pcmanfm-qt")),
+    
     # Switch focus of monitors
     Key([mod], "period", lazy.next_screen()),
     Key([mod], "comma", lazy.prev_screen()),
