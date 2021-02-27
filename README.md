@@ -7,3 +7,7 @@ DotFiles personales (ArchLinux)
 - [Arch](/.README/installation.md)
 - [Qtile](/.README/configuration.md)
 - [Gtk Themes](/.README/themes.md)
+
+## Resumenes
+
+- [Resumenes](/.README/resumenes/resumen.md)
