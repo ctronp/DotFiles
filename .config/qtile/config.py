@@ -25,17 +25,23 @@ mod,shift,ctrl = "mod4","shift","control"
 terminal = guess_terminal()
 
 keys = [
-    # Cambiar de panel
+    # Cambiar de focus
     Key([mod], "j", lazy.layout.down(),
         desc="Move focus down in stack pane"),
     Key([mod], "k", lazy.layout.up(),
         desc="Move focus up in stack pane"),
-    Key([mod], "h", lazy.screen.prev_group()),
-    Key([mod], "l", lazy.screen.next_group()),
+    Key([mod], "h", lazy.layout.left(),
+        desc="Move focus up in stack pane"),
+    Key([mod], "l", lazy.layout.right(),
+        desc="Move focus up in stack pane"),
+    
+    # Cambiar de grupo
+    Key([mod, shift], "h", lazy.screen.prev_group()),
+    Key([mod, shift], "l", lazy.screen.next_group()),
 
-    # Cambiar ancho ventana 
-    Key([mod, "shift"], "l", lazy.layout.grow()),
-    Key([mod, "shift"], "h", lazy.layout.shrink()),
+    # Cambiar ancho focus
+    Key([mod, ctrl], "l", lazy.layout.grow()),
+    Key([mod, ctrl], "h", lazy.layout.shrink()),
 
     # Toggle floating
     Key([mod, "shift"], "f", lazy.window.toggle_floating()),
@@ -126,10 +132,12 @@ layout_conf = {
 layouts = [
     layout.MonadTall(**layout_conf),
     layout.Max(**layout_conf),
-    #layout.Stack(num_stacks=2),
+    layout.Stack(**layout_conf,
+                 num_stacks=3),
     # Try more layouts by unleashing below layouts.
     # layout.Bsp(),
-    # layout.Columns(),
+    layout.Columns(**layout_conf,
+                   num_columns=3),
     # layout.Matrix(),
     # layout.MonadTall(),
     # layout.MonadWide(),
