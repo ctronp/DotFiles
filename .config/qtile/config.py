@@ -31,17 +31,17 @@ keys = [
     Key([mod], "k", lazy.layout.up(),
         desc="Move focus up in stack pane"),
     Key([mod], "h", lazy.layout.left(),
-        desc="Move focus up in stack pane"),
+        desc="Move focus left in stack pane"),
     Key([mod], "l", lazy.layout.right(),
-        desc="Move focus up in stack pane"),
+        desc="Move focus right in stack pane"),
     
     # Cambiar de grupo
-    Key([mod, shift], "h", lazy.screen.prev_group()),
-    Key([mod, shift], "l", lazy.screen.next_group()),
+    Key([mod, ctrl], "h", lazy.screen.prev_group()),
+    Key([mod, ctrl], "l", lazy.screen.next_group()),
 
     # Cambiar ancho focus
-    Key([mod, ctrl], "l", lazy.layout.grow()),
-    Key([mod, ctrl], "h", lazy.layout.shrink()),
+    Key([mod, ctrl], "k", lazy.layout.grow()),
+    Key([mod, ctrl], "j", lazy.layout.shrink()),
 
     # Toggle floating
     Key([mod, "shift"], "f", lazy.window.toggle_floating()),
@@ -51,6 +51,10 @@ keys = [
         desc="Move window down in current stack "),
     Key([mod, shift], "k", lazy.layout.shuffle_up(),
         desc="Move window up in current stack "),
+    Key([mod, shift], "h", lazy.layout.shuffle_left(),
+        desc="Move window left in current stack "),
+    Key([mod, shift], "l", lazy.layout.shuffle_right(),
+        desc="Move window right in current stack "),
 
     # Terminal y firefox
     Key([mod], "Return", lazy.spawn(terminal), desc="Inicia terminal"),
@@ -132,8 +136,7 @@ layout_conf = {
 layouts = [
     layout.MonadTall(**layout_conf),
     layout.Max(**layout_conf),
-    layout.Stack(**layout_conf,
-                 num_stacks=3),
+    # layout.Stack(**layout_conf, num_stacks=3),
     # Try more layouts by unleashing below layouts.
     # layout.Bsp(),
     layout.Columns(**layout_conf,
