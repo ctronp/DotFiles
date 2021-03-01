@@ -22,6 +22,8 @@ xdg-utils arandr zip unzip exa ranger flameshot ripgrep fd prettier imagemagick 
 pavucontrol notification-daemon okular calibre poppler notepadqq chromium qtile kmix feh picom \ 
 network-manager-applet libnotify
 
+sudo pacman -S --needed nvidia lib32-nvidia-utils nvidia-settings cuda cudnn htop neofetch neovim flac
+
 # Instalacion de gestores de paquetes
 
 $HOME/.scripts/miniconda.sh
