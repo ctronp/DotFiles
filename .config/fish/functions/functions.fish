@@ -6,6 +6,8 @@ alias tree "exa -T"
 alias cat "ccat"
 alias gitm "git commit -m"
 
+# script para actualizar todo
+alias uptall "$HOME/bin/updateall"
 
 # funcion para sudo !!
 # https://unix.stackexchange.com/questions/235704/fish-sudo-command-not-found
