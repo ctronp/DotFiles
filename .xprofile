@@ -7,6 +7,9 @@ export QT_QPA_PLATFORMTHEME=gtk2
 # archivo original de /etc/X11/xinit/xinitrx
 # recordad cambiar permisos, dueno y grupo (chmod, chown, chgrp)
 
+# nvidia driver tearing
+nvidia-settings --assign CurrentMetaMode="nvidia-auto-select +0+0 { ForceCompositionPipeline = On }" &
+
 # wallpaper
 feh --bg-scale $HOME/.wallpaper.jpg
 
