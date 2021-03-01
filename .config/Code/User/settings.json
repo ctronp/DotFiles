@@ -9,7 +9,7 @@
   "projectManager.git.maxDepthRecursion": 1,
   "editor.fontFamily": "'Fira Code', 'UbuntuMono Nerd Font', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "editor.fontLigatures": true,
-  "window.zoomLevel": 1,
   "workbench.colorTheme": "Material Theme Palenight",
-  "workbench.iconTheme": "eq-material-theme-icons-palenight"
+  "workbench.iconTheme": "eq-material-theme-icons-palenight",
+  "window.zoomLevel": 1
 }
