@@ -4,6 +4,13 @@
 
 export QT_QPA_PLATFORMTHEME=gtk2
 
+if [ -d "$HOME/bin" ] ; then
+    export PATH="$HOME/bin:$PATH"
+else
+    mkdir $HOME/bin
+    export PATH="$HOME/bin:$PATH"
+fi
+
 # archivo original de /etc/X11/xinit/xinitrx
 # recordad cambiar permisos, dueno y grupo (chmod, chown, chgrp)
 
