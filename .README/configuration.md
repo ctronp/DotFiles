@@ -20,7 +20,7 @@ los paquetes pueden ser revisados en mas detalle [aqui](paquetes.md)
 descargamos los siguientes paquetes de forma recomendada, solo en caso de que tengas grafica nvidia y te interese el codigo en cuda o ML.
 
 ```shell
-sudo pacman -S nvidia lib32-nvidia-utils cuda cudnn htop neofetch neovim flac
+sudo pacman -S nvidia lib32-nvidia-utils nvidia-settings cuda cudnn htop neofetch neovim flac
 ```
 
 ### descargar yay
