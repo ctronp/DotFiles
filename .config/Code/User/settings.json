@@ -11,5 +11,10 @@
   "editor.fontLigatures": true,
   "workbench.colorTheme": "Material Theme Palenight",
   "workbench.iconTheme": "eq-material-theme-icons-palenight",
-  "window.zoomLevel": 1
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ]
 }
