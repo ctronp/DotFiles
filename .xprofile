@@ -4,6 +4,7 @@
 
 export QT_QPA_PLATFORMTHEME=gtk2
 
+# anadir home bin
 if [ -d "$HOME/bin" ] ; then
     export PATH="$HOME/bin:$PATH"
 else
