@@ -1,0 +1,20 @@
+# Ignore everything
+/*
+!.gitignore
+!.gitmodules
+
+# Except for:
+!config.h
+!config.def.h
+!drw.c
+!drw.h
+!dwm.1
+!dwm.c
+!dwm.png
+!info.txt
+!LICENSE
+!Makefile
+!README
+!transient.c
+!util.c
+!util.h
