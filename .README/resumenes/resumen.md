@@ -23,6 +23,7 @@ No empezado aun.
 |seccion|Descripcion|Link|
 |-|-|:-:|
 |1|Introduccion a RISK-V|[link](RISC-V/1.md)
+|2|La historia de RISC-V|[link](RISC-V/2.md)
 
 ## RISC-V-2
 
