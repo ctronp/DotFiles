@@ -1,0 +1,32 @@
+Alright! Let me take you now to makerchip.com.
+And I'll open up the integrated development environment by clicking here.
+Makerchip is an evolving platform, so it's possible that it may look different for you.
+I'll open an example so we have something to look at.
+You'll find various examples here, along with a number of tutorials that you should feel free to run through anytime, to either reinforce a concept you're having trouble with,
+or to go beyond what we cover in this course.
+I'll open up this long division example. This circuit performs division similar to how you would do long division on paper.
+I'm not going to focus on the circuit, but rather on the features of Makerchip.
+The long division design is now in our editor pane, where we can edit our circuit model.
+ This is written in transaction level Verilog; compilation happened automatically when I opened the example.
+But we would compile our design from this e-menu or using Control + Enter.
+I'll recompile and you'll see spinners on the tabs while the model is compiling and simulating.
+We can see the log output in the log tab.
+It's important to always check your logs first every time you compile and fix any errors and unexpected warnings.
+Many errors are non-fatal and you'll still be able to compile and simulate,
+but it's much easier to debug errors from the log than to debug your simulation.
+I'm going to split panes and place the log tab down, here so I can always keep an eye on it.
+So, we've now got a logic diagram of our circuit here and simulation has generated waveforms, which show us the values on all the signals essentially the wires in our circuit for the duration of the circuit simulation.
+I'm going to again split panes so I can see the waveform and the logic diagram at the same time.
+Let me put the waveforms down here.
+These various views are linked. We can click this signal here, for example, and it will highlight in the circuit diagram.
+It also highlights in this NAV TLV tab. This tab shows our code similar to the editor, but this is a representation of our code as interpreted by the tools.
+You'll use this version of your code to debug your designs.
+Errors and warnings will be highlighted in this code, corresponding to some of the errors you'll see in the logs.
+So, the general debug flow is to use your waveform to track down incorrect simulation behavior,
+and then you'll trace the signal back through the logic diagram and code and fix the issue.
+Note that you can hover over logic in the diagram to see the logic expressions.
+Also note that you can jump from a NAV TLV line to the editor by clicking on the line number.
+So, you can track from the incorrect simulation behavior back to the faulty source code.
+There's also a VIZ tab, which will further simplify debug for large designs.
+We'll talk about that one later.
+We'll take a look at a few other things in the IDE later as well, but this is everything you'll need to get started.

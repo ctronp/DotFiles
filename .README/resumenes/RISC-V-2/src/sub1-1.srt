@@ -1,0 +1,128 @@
+0
+00:00:02,480 --> 00:00:05,200
+Alright! Let me take you now to makerchip.com.
+
+1
+00:00:05,200 --> 00:00:09,189
+And I'll open up the integrated development environment by clicking here.
+
+2
+00:00:10,320 --> 00:00:14,495
+Makerchip is an evolving platform, so it's possible that it may look different for you.
+
+3
+00:00:15,120 --> 00:00:17,761
+I'll open an example so we have something to look at.
+
+4
+00:00:17,761 --> 00:00:27,187
+You'll find various examples here, along with a number of tutorials that you should feel free to run through anytime, to either reinforce a concept you're having trouble with,
+
+5
+00:00:27,187 --> 00:00:30,470
+or to go beyond what we cover in this course.
+
+6
+00:00:30,470 --> 00:00:37,423
+I'll open up this long division example. This circuit performs division similar to how you would do long division on paper.
+
+7
+00:00:37,600 --> 00:00:41,263
+I'm not going to focus on the circuit, but rather on the features of Makerchip.
+
+8
+00:00:41,440 --> 00:00:46,956
+The long division design is now in our editor pane, where we can edit our circuit model.
+
+9
+00:00:46,956 --> 00:00:53,129
+ This is written in transaction level Verilog; compilation happened automatically when I opened the example.
+
+10
+00:00:53,760 --> 00:00:59,785
+But we would compile our design from this e-menu or using Control + Enter.
+
+11
+00:00:59,785 --> 00:01:05,268
+I'll recompile and you'll see spinners on the tabs while the model is compiling and simulating.
+
+12
+00:01:06,320 --> 00:01:09,328
+We can see the log output in the log tab.
+
+13
+00:01:09,328 --> 00:01:15,774
+It's important to always check your logs first every time you compile and fix any errors and unexpected warnings.
+
+14
+00:01:16,240 --> 00:01:20,228
+Many errors are non-fatal and you'll still be able to compile and simulate,
+
+15
+00:01:20,320 --> 00:01:24,623
+but it's much easier to debug errors from the log than to debug your simulation.
+
+16
+00:01:25,200 --> 00:01:30,207
+I'm going to split panes and place the log tab down, here so I can always keep an eye on it.
+
+17
+00:01:32,880 --> 00:01:47,028
+So, we've now got a logic diagram of our circuit here and simulation has generated waveforms, which show us the values on all the signals essentially the wires in our circuit for the duration of the circuit simulation.
+
+18
+00:01:47,028 --> 00:01:52,999
+I'm going to again split panes so I can see the waveform and the logic diagram at the same time.
+
+19
+00:01:53,393 --> 00:01:55,514
+Let me put the waveforms down here.
+
+20
+00:01:57,440 --> 00:02:05,840
+These various views are linked. We can click this signal here, for example, and it will highlight in the circuit diagram.
+
+21
+00:02:05,840 --> 00:02:16,788
+It also highlights in this NAV TLV tab. This tab shows our code similar to the editor, but this is a representation of our code as interpreted by the tools.
+
+22
+00:02:17,520 --> 00:02:21,294
+You'll use this version of your code to debug your designs.
+
+23
+00:02:21,294 --> 00:02:27,146
+Errors and warnings will be highlighted in this code, corresponding to some of the errors you'll see in the logs.
+
+24
+00:02:28,160 --> 00:02:33,632
+So, the general debug flow is to use your waveform to track down incorrect simulation behavior,
+
+25
+00:02:33,632 --> 00:02:38,207
+and then you'll trace the signal back through the logic diagram and code and fix the issue.
+
+26
+00:02:38,640 --> 00:02:43,485
+Note that you can hover over logic in the diagram to see the logic expressions.
+
+27
+00:02:43,485 --> 00:02:50,062
+Also note that you can jump from a NAV TLV line to the editor by clicking on the line number.
+
+28
+00:02:50,062 --> 00:02:55,250
+So, you can track from the incorrect simulation behavior back to the faulty source code.
+
+29
+00:02:55,250 --> 00:03:00,994
+There's also a VIZ tab, which will further simplify debug for large designs.
+
+30
+00:03:00,994 --> 00:03:02,875
+We'll talk about that one later.
+
+31
+00:03:02,875 --> 00:03:10,240
+We'll take a look at a few other things in the IDE later as well, but this is everything you'll need to get started.
+
