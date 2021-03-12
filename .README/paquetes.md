@@ -52,3 +52,7 @@
 |paquete|descripcion|
 |-|-|
 |pylint|linter de python, puede ser usado por vscode|
+
+---
+|[Menu Principal](../README.md)|
+|:-:|

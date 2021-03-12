@@ -133,3 +133,7 @@ nano /etc/sudoers
 ```
 
 recomendado copiar git y realizar descargas de [configuration.md](configuration.md)
+
+---
+|[Menu Principal](../README.md)|
+|:-:|

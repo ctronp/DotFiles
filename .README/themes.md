@@ -41,3 +41,7 @@ luego introducimos el nombre del tema en los siguientes archivos:
 
 - [.gtkrc-2.0](/../.gtkrc-2.0)
 - [.config/gtk-3.0/settings.ini](/../.config/gtk-3.0/settings.ini)
+
+---
+|[Menu Principal](../README.md)|
+|:-:|

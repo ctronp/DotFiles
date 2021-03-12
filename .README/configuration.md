@@ -212,3 +212,7 @@ instalar un tema
 ```shell
 omf install spacefish
 ```
+
+---
+|[Menu Principal](../README.md)|
+|:-:|
