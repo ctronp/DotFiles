@@ -12,6 +12,11 @@ set mouse
 
 # desactivar help (lineas inferiores)
 #set nohelp
+
+# si una linea es mas larga del ancho continua en la siguiente
+set softwrap
+
+# numeros de lineas
 set linenumbers
 
 # sintaxis
