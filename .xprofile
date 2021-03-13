@@ -2,7 +2,12 @@
 
 # environment variables
 
+## Para gtk
 export QT_QPA_PLATFORMTHEME=gtk2
+
+## Para usar nano
+export VISUAL=nano
+export EDITOR=nano
 
 # anadir home bin
 if [ -d "$HOME/bin" ] ; then
