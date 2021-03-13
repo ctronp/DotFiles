@@ -24,3 +24,6 @@ include "/usr/share/nano/*.nanorc"
 
 # sintaxis mejorada (solo si se instalo nano-syntax-higlighting)
 include "/usr/share/nano-syntax-highlighting/*.nanorc"
+
+# convierte tabs a espacios
+set tabstospaces
