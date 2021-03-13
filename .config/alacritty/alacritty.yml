@@ -16,6 +16,8 @@ window:
 
 cursor:
   style: Beam
+  unfocused_hollow: false
+  thickness: 0.25
 
 
 custom_cursor_color: true
