@@ -13,3 +13,12 @@ font:
 window:
   padding:
     x: 2
+
+cursor:
+  style: Beam
+
+
+custom_cursor_color: true
+colors:
+  cursor:
+    cursor: '#a151d3'
