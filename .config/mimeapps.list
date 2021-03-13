@@ -31,7 +31,7 @@ audio/mpeg=vlc.desktop
 audio/x-mpegurl=vlc.desktop
 
 # pdf
-application/pdf=okularApplication_pdf.desktop
+application/pdf=zathura.desktop
 
 # video
 video/mp4=vlc.video

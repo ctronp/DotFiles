@@ -1,0 +1,21 @@
+# auto identacion
+set autoindent
+
+# tamano de tab
+set tabsize 4
+
+# bajado continuo y no paginado
+set smooth
+
+# uso de mouse
+set mouse
+
+# desactivar help (lineas inferiores)
+#set nohelp
+set linenumbers
+
+# sintaxis
+include "/usr/share/nano/*.nanorc"
+
+# sintaxis mejorada (solo si se instalo nano-syntax-higlighting)
+include "/usr/share/nano-syntax-highlighting/*.nanorc"
