@@ -29,16 +29,25 @@ include "/usr/share/nano-syntax-highlighting/*.nanorc"
 set tabstospaces
 
 # color de numeros
-set numbercolor  bold,italic,magenta,normal
+set numbercolor  bold,italic,magenta,black
 
 # color del titulo
-set titlecolor bold,italic,cyan,normal
+set titlecolor bold,italic,cyan,black
 
 # color del tecto de la zona help
 set functioncolor cyan,black
 
 # errorcolor
-set errorcolor cyan,normal
+#set errorcolor cyan,black
 
 # color de las combinaciones de teclas en la zona help
-set keycolor bold,white,normal
+set keycolor bold,white,black
+
+# color del prompt
+#set promptcolor
+
+# no se xd
+#set scrollercolor white,black
+
+#color white,black ".*"
+color normal,black ".*"
