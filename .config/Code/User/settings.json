@@ -16,5 +16,6 @@
       "viewType": "jupyter.notebook.ipynb",
       "filenamePattern": "*.ipynb"
     }
-  ]
+  ],
+  "latex-workshop.view.pdf.viewer": "tab"
 }
