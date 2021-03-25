@@ -205,15 +205,6 @@ screens = [
                         fontsize=18,
                         font='UbuntuMono Nerd Font Bold',
                         ),
-                widget.Systray(
-                    background=backgroundColor,
-                    padding=6
-                    ),
-                widget.Sep(
-                    linewidth=0,
-                    padding=6,
-                    background=backgroundColor,
-                    ),
                 widget.TextBox(
                     background=backgroundColor,
                     foreground=["#F07178","#F07178"],
@@ -262,6 +253,22 @@ screens = [
                     foreground=["#0f101a","#0f101a"],
                     padding=5,
                     format='%d-%m-%Y %I:%M %p'),
+                widget.TextBox(
+                    background=["#a151d3","#a151d3"],
+                    foreground=backgroundColor,
+                    text="",
+                    fontsize=37,
+                    padding=-2
+                ),
+                widget.Systray(
+                    background=backgroundColor,
+                    padding=6
+                    ),
+                widget.Sep(
+                    linewidth=0,
+                    padding=8,
+                    background=backgroundColor
+                    ),
             ],
             26,
             opacity=0.92,
