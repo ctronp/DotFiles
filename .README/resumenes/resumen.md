@@ -38,7 +38,8 @@ solo incluye una pagina desde la cual puedes aprender LaTeX
 
 |seccion|Descripcion|Link|
 |-|-|:-:|
-|1|Fuente|[link](http://nokyotsu.com/latex/)]
+|1|Fuente|[link](http://nokyotsu.com/latex/)|
+
 ---
 |[Menu Principal](../../README.md)|
 |:-:|
