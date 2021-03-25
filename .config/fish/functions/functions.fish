@@ -2,6 +2,7 @@
 
 alias ls "exa --group-directories-first"
 alias lsa "exa -la --group-directories-first"
+alias ll "exa -l --group-directories-first"
 alias tree "exa -T"
 alias cat "ccat"
 alias gitm "git commit -m"
