@@ -17,5 +17,6 @@
       "filenamePattern": "*.ipynb"
     }
   ],
-  "latex-workshop.view.pdf.viewer": "tab"
+  "latex-workshop.view.pdf.viewer": "tab",
+  "explorer.confirmDelete": false
 }
