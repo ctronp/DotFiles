@@ -20,7 +20,7 @@ ttf-croscore ttf-fira-code gnu-free-fonts noto-fonts noto-fonts-emoji noto-fonts
 xorg-server lightdm lightdm-gtk-greeter lightdm-webkit2-greeter xorg-xinit xorg-xrandr git firefox \ 
 xdg-utils arandr zip unzip exa ranger flameshot ripgrep fd prettier imagemagick rofi pulseaudio \ 
 pavucontrol notification-daemon okular calibre poppler notepadqq chromium qtile kmix feh picom \ 
-network-manager-applet libnotify nano-syntax-highlighting
+network-manager-applet libnotify nano-syntax-highlighting breeze
 
 sudo pacman -S --needed nvidia lib32-nvidia-utils nvidia-settings cuda cudnn htop neofetch neovim flac
 

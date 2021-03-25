@@ -8,7 +8,7 @@ descargamos los siguientes paquetes de forma obligatoria (incluire los de la ins
 algunas fonts pueden ser retiradas.
 
 ```shell
-sudo pacman -S fish alacritty udiskie ntfs-3g vlc python-pip ttf-dejavu ttf-liberation ttf-droid ttf-croscore ttf-fira-code gnu-free-fonts noto-fonts noto-fonts-emoji noto-fonts-cjk noto-fonts-extra xorg-server lightdm lightdm-gtk-greeter lightdm-webkit2-greeter xorg-xinit xorg-xrandr git firefox xdg-utils arandr zip unzip exa ranger flameshot ripgrep fd prettier imagemagick rofi pulseaudio pavucontrol notification-daemon okular calibre poppler notepadqq chromium qtile kmix feh picom network-manager-applet libnotify nano-syntax-highlighting
+sudo pacman -S fish alacritty udiskie ntfs-3g vlc python-pip ttf-dejavu ttf-liberation ttf-droid ttf-croscore ttf-fira-code gnu-free-fonts noto-fonts noto-fonts-emoji noto-fonts-cjk noto-fonts-extra xorg-server lightdm lightdm-gtk-greeter lightdm-webkit2-greeter xorg-xinit xorg-xrandr git firefox xdg-utils arandr zip unzip exa ranger flameshot ripgrep fd prettier imagemagick rofi pulseaudio pavucontrol notification-daemon okular calibre poppler notepadqq chromium qtile kmix feh picom network-manager-applet libnotify nano-syntax-highlighting breeze
 ```
 
 los paquetes pueden ser revisados en mas detalle [aqui](paquetes.md)
