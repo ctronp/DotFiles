@@ -19,6 +19,7 @@ set softwrap
 # numeros de lineas
 set linenumbers
 
+
 # sintaxis
 include "/usr/share/nano/*.nanorc"
 
@@ -42,3 +43,7 @@ set errorcolor cyan,normal
 
 # color de las combinaciones de teclas en la zona help
 set keycolor bold,white,normal
+
+# color de los comentarios en mimeapps.list
+syntax "mimeapps.list" "mimeapps.list"
+color blue "^\s*#.*"
