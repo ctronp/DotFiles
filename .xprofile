@@ -47,3 +47,6 @@ numlockx &
 # volume icon
 #volumeicon &
 kmix &
+
+# para ver el calendario
+firefox &
