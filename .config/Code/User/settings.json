@@ -19,4 +19,10 @@
   ],
   "latex-workshop.view.pdf.viewer": "tab",
   "explorer.confirmDelete": false
+  "editor.rulers": [
+    78,
+    80,
+    89
+  ],
+  "editor.wrappingColumn": 0
 }
