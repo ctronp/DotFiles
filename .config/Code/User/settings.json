@@ -3,14 +3,16 @@
   "editor.suggestSelection": "first",
   "projectManager.git.baseFolders": [
     "~/github/",
-    "~/"
+    "~/",
+    "~/github/optim/",
+    "~/github/discretas/"
   ],
   "projectManager.any.maxDepthRecursion": 1,
   "projectManager.git.maxDepthRecursion": 1,
   "editor.fontFamily": "'Fira Code', 'UbuntuMono Nerd Font', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "editor.fontLigatures": true,
-  "workbench.colorTheme": "Material Theme Palenight",
-  "workbench.iconTheme": "eq-material-theme-icons-palenight",
+  "workbench.colorTheme": "Material Deep Ocean",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.editorAssociations": [
     {
       "viewType": "jupyter.notebook.ipynb",
@@ -18,11 +20,16 @@
     }
   ],
   "latex-workshop.view.pdf.viewer": "tab",
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
   "editor.rulers": [
     78,
     80,
     89
   ],
-  "editor.wrappingColumn": 0
+  "editor.wrappingColumn": 0,
+  "git.enableSmartCommit": true,
+  "explorer.confirmDragAndDrop": false,
+  "[latex]": {
+    "editor.defaultFormatter": "nickfode.latex-formatter"
+  }
 }
