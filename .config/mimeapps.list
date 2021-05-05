@@ -11,29 +11,35 @@ text/x-csrc=code_code.desktop;
 
 [Default Applications]
 
+# Jetbrains
 x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
 
+# Navegador
 text/html=firefox.desktop
 x-scheme-handler/http=firefox.desktop
 x-scheme-handler/https=firefox.desktop
+x-scheme-handler/about=firefox.desktop
+x-scheme-handler/unknown=firefox.desktop
+x-scheme-handler/webcal=firefox.desktop
 
-# texto plano
+
+# Texto Plano
 text/plain=notepadqq.desktop
 
-# image
+# Image
 image/jpeg=feh.desktop
 image/png=feh.desktop
 
-# audio
+# Audio
 audio/mp2=vlc.desktop
 audio/mp4=vlc.desktop
 audio/mpeg=vlc.desktop
 audio/x-mpegurl=vlc.desktop
 
-# pdf
+# PDF
 application/pdf=okularApplication_pdf.desktop
 
-# video
+# Video
 video/mp4=vlc.video
 video/x-matroska=vlc.desktop
 video/x-matroska-3d=vlc.desktop
