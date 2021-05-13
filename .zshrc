@@ -142,5 +142,6 @@ unset __conda_setup
 # Comandos Customs
 alias please="sudo"
 alias gitm="git commit -m"
+alias gitp="git push"
 alias untar="tar -zxvf"
 alias uptall="$HOME/bin/updateall"
