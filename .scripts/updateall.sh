@@ -6,10 +6,15 @@ if [ "$EUID" -eq 0 ]; then
     needSudo=""
 fi
 
-which pacman && eval "$needSudo pacman -Sy" && eval "$needSudo pacman -Syu"
+
+# Not sudo updates
 
 which conda && conda update --all && conda update conda
 
-which snap && eval "$needSudo snap refresh"
-
 which yay && yay -Sy && yay -Syu
+
+# sudo updates
+
+which pacman && eval "$needSudo pacman -Syy" && eval "$needSudo pacman -Syyu"
+
+which snap && eval "$needSudo snap refresh"
