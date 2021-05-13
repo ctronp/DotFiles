@@ -7,6 +7,7 @@ alias tree "exa -T"
 alias cat "ccat"
 alias gitm "git commit -m"
 alias texrtm "latexmk -pdf -pvc"
+alias untar "tar -zxvf"
 
 # script para actualizar todo
 alias uptall "$HOME/bin/updateall"
