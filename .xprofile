@@ -45,8 +45,8 @@ flameshot &
 numlockx &
 
 # volume icon
-#volumeicon &
-kmix &
+# volumeicon &
+# kmix &
 
 # para ver el calendario
 firefox &
