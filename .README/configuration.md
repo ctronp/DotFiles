@@ -8,7 +8,7 @@ descargamos los siguientes paquetes de forma obligatoria (incluire los de la ins
 algunas fonts pueden ser retiradas.
 
 ```shell
-sudo pacman -S fish alacritty udiskie ntfs-3g vlc python-pip ttf-dejavu ttf-liberation ttf-droid ttf-croscore ttf-fira-code gnu-free-fonts noto-fonts noto-fonts-emoji noto-fonts-cjk noto-fonts-extra xorg-server lightdm lightdm-gtk-greeter lightdm-webkit2-greeter xorg-xinit xorg-xrandr git firefox xdg-utils arandr zip unzip exa ranger flameshot ripgrep fd prettier imagemagick rofi pulseaudio pavucontrol notification-daemon okular calibre poppler notepadqq chromium qtile kmix feh picom network-manager-applet libnotify nano-syntax-highlighting breeze gnome-themes-extra
+sudo pacman -S zsh fish alacritty udiskie ntfs-3g vlc python-pip ttf-dejavu ttf-liberation ttf-droid ttf-croscore ttf-fira-code gnu-free-fonts noto-fonts noto-fonts-emoji noto-fonts-cjk noto-fonts-extra xorg-server lightdm lightdm-gtk-greeter lightdm-webkit2-greeter xorg-xinit xorg-xrandr git firefox xdg-utils arandr zip unzip exa ranger flameshot ripgrep fd prettier imagemagick rofi pipewire pipewire-alsa pipewire-jack pipewire-pulse pavucontrol notification-daemon okular calibre poppler notepadqq chromium qtile kmix feh picom network-manager-applet libnotify nano-syntax-highlighting breeze gnome-themes-extra rsync
 ```
 
 los paquetes pueden ser revisados en mas detalle [aqui](paquetes.md)
@@ -45,7 +45,7 @@ yay
 descargas obligatorias
 
 ```shell
-yay -S nerd-fonts-ubuntu-mono ccat qt5-styleplugins
+yay -S nerd-fonts-ubuntu-mono qt5-styleplugins
 ```
 
 ## 2.- Habilitar qtile
@@ -84,7 +84,7 @@ chsh -s /bin/fish
 
 es posible ver todas las shells con ```chsh -l```
 
-## Descargar este git.
+## Descargar este git
 
 ```shell
 cd ~
@@ -110,7 +110,7 @@ git remote set-url origin https://github.com/ctronp/dotfiles.git
 audio (recomendado reinicial luego de instalar)
 
 ```shell
-pacman -S --needed pulseaudio pavucontrol
+pacman -S --needed pipewire pipewire-pulse pipewire-alsa pipewire-jack
 ```
 
 wallpaper
@@ -190,7 +190,7 @@ esto solucionara problemas como al abrir links desde telegram.
 
 para mas detalle de esta configuracion verificar el siguiente [link](themes.md)
 
-## configuracion de fish
+## configuracion de fish (Deprecado, lo remplaze por zsh y zim)
 
 fish ya fue descargado previamente, al inicio de esta pagina.
 descargar [oh my fish](https://github.com/oh-my-fish/oh-my-fish)
