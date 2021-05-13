@@ -5,7 +5,7 @@ set autoindent
 set tabsize 4
 
 # bajado continuo y no paginado
-set smooth
+# set smooth
 
 # uso de mouse
 set mouse
