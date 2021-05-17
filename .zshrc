@@ -146,6 +146,7 @@ alias gitm="git commit -m"
 alias gitp="git push"
 alias untar="tar -zxvf"
 alias uptall="$HOME/bin/updateall"
+alias open="xdg-open"
 
 # obinskit (teclado)
 alias obinskit="$HOME/obinskit/obinskit"
