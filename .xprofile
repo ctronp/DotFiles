@@ -20,6 +20,9 @@ fi
 # archivo original de /etc/X11/xinit/xinitrx
 # recordad cambiar permisos, dueno y grupo (chmod, chown, chgrp)
 
+# Tipo de teclado
+setxkbmap es & # Español
+
 # nvidia driver tearing
 nvidia-settings --assign CurrentMetaMode="nvidia-auto-select +0+0 { ForceCompositionPipeline = On }" &
 
