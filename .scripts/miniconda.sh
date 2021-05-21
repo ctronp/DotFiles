@@ -15,4 +15,6 @@ chmod u+x "./miniconda3.sh"
 
 bash "./miniconda3.sh" -b -p "$HOME/miniconda3" -f
 
-$HOME/miniconda3/bin/conda init fish
+$HOME/miniconda3/bin/conda init zsh
+
+conda config --set auto_activate_base false
