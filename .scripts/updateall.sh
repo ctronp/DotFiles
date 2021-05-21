@@ -9,7 +9,7 @@ fi
 
 # Not sudo updates
 
-which conda && conda update --all && conda update conda
+which conda && $HOME/miniconda3/bin/conda update --all && $HOME/miniconda3/bin/conda update conda
 
 which yay && yay -Sy && yay -Syu
 
