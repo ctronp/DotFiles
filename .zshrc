@@ -144,9 +144,13 @@ alias please="sudo"
 alias gita="git add"
 alias gitm="git commit -m"
 alias gitp="git push"
+alias gits="git status"
 alias untar="tar -zxvf"
 alias uptall="$HOME/bin/updateall"
 alias open="xdg-open"
 
 # obinskit (teclado)
 alias obinskit="$HOME/obinskit/obinskit"
+
+# colores tmux (256)
+alias tmux="TERM=xterm-256color tmux"
