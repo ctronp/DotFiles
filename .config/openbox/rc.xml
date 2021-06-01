@@ -116,8 +116,7 @@
             <action name="Close" />
         </keybind>
 
-        
-        
+
         <!-- Win + [Num] : Moverse entre los escritorios -->
         <!-- http://openbox.org/wiki/Help:Actions#GoToDesktop -->
         <keybind key="W-1">
@@ -140,7 +139,35 @@
                 <to>4</to>
             </action>
         </keybind>
-        
+
+        <!-- Win + Shift + [Num] : Enviar a escritorio -->
+        <!-- http://openbox.org/wiki/Help:Actions#SendToDesktop -->
+        <keybind key="W-S-1">
+            <action name="SendToDesktop">
+                <to>1</to>
+                <follow>no</follow>
+            </action>
+        </keybind>
+        <keybind key="W-S-2">
+            <action name="SendToDesktop">
+                <to>2</to>
+                <follow>no</follow>
+            </action>
+        </keybind>
+        <keybind key="W-S-3">
+            <action name="SendToDesktop">
+                <to>3</to>
+                <follow>no</follow>
+            </action>
+        </keybind>
+        <keybind key="W-S-4">
+            <action name="SendToDesktop">
+                <to>4</to>
+                <follow>no</follow>
+            </action>
+        </keybind>
+
+
         <!-- Rofi -->
         <!-- http://openbox.org/wiki/Help:Actions#Execute -->
         <keybind key="W-q">
