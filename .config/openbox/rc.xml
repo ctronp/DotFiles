@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- http://openbox.org/wiki/Help:Configuration -->
+
+
+<openbox_config xmlns="http://openbox.org/3.4/rc" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <!-- Resistencia de las ventanas al moverse de una a otra -->
+    <!-- Segunda resistencia es la de cambiarse de escritorio -->
+    <resistance>
+        <strength>10</strength>
+        <screen_edge_strength>20</screen_edge_strength>
+    </resistance>
+
+    <!-- El focus seguira el mouse al movimiento -->
+    <focus>
+        <focusNew>no</focusNew>
+        <focusLast>no</focusLast>
+        <followMouse>yes</followMouse>
+        <focusDelay>100</focusDelay>
+        <!-- El focus sigue al mouse incluso cuando no se mueve -->
+        <underMouse>yes</underMouse>
+        <raiseOnFocus>no</raiseOnFocus>
+    </focus>
+
+    <!-- Ubicacion de las nuevas ventanas -->
+    <placement>
+        <!-- Sera ubicado en un espacio libre, no bajo el mouse -->
+        <policy>Smart</policy>
+        <!-- La nueva ventana no estara al centro del espacio libre-->
+        <center>no</center>
+    </placement>
+
+
+    <!-- Theme -->
+    <!-- http://openbox.org/wiki/Help:Configuration#Theme -->
+    <!-- http://openbox.org/wiki/Help:Themes -->
+    <theme>
+        <name>personal</name>
+        <titleLayout>NLIMC</titleLayout>
+        <keepBorder>no</keepBorder>
+        <!-- No se que hace, XD -->
+        <animateIconify>yes</animateIconify>
+
+        <!-- Fonts -->
+        <!-- No lo modifique, lo copie de la documentacion -->
+        <font place="ActiveWindow">
+            <name>sans</name>
+            <size>8</size>
+            <weight>bold</weight>
+            <slant>normal</slant>
+        </font>
+        <font place="InactiveWindow">
+            <name>sans</name>
+            <size>8</size>
+            <weight>bold</weight>
+            <slant>normal</slant>
+        </font>
+        <font place="MenuHeader">
+            <name>sans</name>
+            <size>9</size>
+            <weight>normal</weight>
+            <slant>normal</slant>
+        </font>
+        <font place="MenuItem">
+            <name>sans</name>
+            <size>9</size>
+            <weight>normal</weight>
+            <slant>normal</slant>
+        </font>
+        <font place="OnScreenDisplay">
+            <name>sans</name>
+            <size>9</size>
+            <weight>bold</weight>
+            <slant>normal</slant>
+        </font>
+    </theme>
+
+    <!-- Configuracion de escritorios -->
+    <!-- http://openbox.org/wiki/Help:Configuration#Desktops -->
+    <desktops>
+        <number>4</number>
+        <firstdesk>1</firstdesk>
+        <!-- No se que hace -->
+        <popupTime>1000</popupTime>
+        <!-- Nombre de los escritorios -->
+        <names>
+            <name>1</name>
+            <name>2</name>
+            <name>3</name>
+            <name>4</name>
+        </names>
+    </desktops>
+
+    <!-- Resize (and move) -->
+    <!-- http://openbox.org/wiki/Help:Configuration#Resize_.28and_move.29 -->
+    <!-- No se lo que hacen la mayoria de las cosas aqui XD-->
+    <resize>
+        <drawContents>no</drawContents>
+        <popupShow>Always</popupShow>
+        <popupPosition>Fixed</popupPosition>
+        <popupFixedPosition>
+            <x>400</x>
+            <y>center</y>
+        </popupFixedPosition>
+    </resize>
+
+    <!-- Binding de teclas -->
+
+    <!-- Teclado -->
+    <!-- http://openbox.org/wiki/Help:Configuration#Keyboard -->
+    <!-- http://openbox.org/wiki/Help:Bindings#Key_bindings -->
+    <!-- Actions: http://openbox.org/wiki/Help:Actions -->
+    <keyboard>
+        <!-- Win + w : Cerrar ventanas -->
+        <keybind key="W-w">
+            <action name="Close" />
+        </keybind>
+
+        <!-- Rofi -->
+        <!-- http://openbox.org/wiki/Help:Actions#Execute -->
+        <keybind key="W-q">
+            <action name="Execute">
+                <command>rofi -show drun</command>
+            </action>
+        </keybind>
+        <keybind key="W-r">
+            <action name="Execute">
+                <command>rofi -show run</command>
+            </action>
+        </keybind>
+        <keybind key="W-S-q">
+            <action name="Execute">
+                <command>rofi -show</command>
+            </action>
+        </keybind>
+
+
+        <!-- Win + [Num] : Moverse entre los escritorios -->
+        <!-- http://openbox.org/wiki/Help:Actions#GoToDesktop -->
+        <keybind key="W-1">
+            <action name="GoToDesktop">
+                <to>1</to>
+            </action>
+        </keybind>
+        <keybind key="W-2">
+            <action name="GoToDesktop">
+                <to>2</to>
+            </action>
+        </keybind>
+        <keybind key="W-3">
+            <action name="GoToDesktop">
+                <to>3</to>
+            </action>
+        </keybind>
+        <keybind key="W-4">
+            <action name="GoToDesktop">
+                <to>4</to>
+            </action>
+        </keybind>
+
+    </keyboard>
+
+</openbox_config>
