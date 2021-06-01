@@ -7,22 +7,23 @@
         <menu id="navegadores" label="Navegadores">
             <item label="Firefox">
                 <action name="Execute">
-                    <command>"firefox"</command>
+                    <command>firefox</command>
                 </action>
             </item>
 
-
         </menu>
+
         <!-- Menu de terminales -->
         <menu id="terminales" label="Terminales">
-            <item label="alacritty">
+            <item label="Alacritty">
                 <action name="Execute">
-                    
+                    <command>alacritty</command>
                 </action>
             </item>
+
         </menu>
 
-        
+
     </menu>
 
 </openbox_menu>
