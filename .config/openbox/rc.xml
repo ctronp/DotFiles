@@ -200,7 +200,23 @@
                 <command>alacritty</command>
             </action>
         </keybind>
-
+        <!-- pcmanfm-qt -->
+        <keybind key="W-e">
+            <action name="Execute">
+                <command>pcmanfm-qt</command>
+            </action>
+        </keybind>
+        <!-- flameshot (screenshots) -->
+        <keybind key="W-s">
+            <action name="Execute">
+                <command>flameshot gui</command>
+            </action>
+        </keybind>
+        <keybind key="W-S-Return">
+            <action name="Execute">
+                <command>flameshot full -c</command>
+            </action>
+        </keybind>
     </keyboard>
 
 </openbox_config>
