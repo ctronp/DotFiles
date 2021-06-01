@@ -116,25 +116,8 @@
             <action name="Close" />
         </keybind>
 
-        <!-- Rofi -->
-        <!-- http://openbox.org/wiki/Help:Actions#Execute -->
-        <keybind key="W-q">
-            <action name="Execute">
-                <command>rofi -show drun</command>
-            </action>
-        </keybind>
-        <keybind key="W-r">
-            <action name="Execute">
-                <command>rofi -show run</command>
-            </action>
-        </keybind>
-        <keybind key="W-S-q">
-            <action name="Execute">
-                <command>rofi -show</command>
-            </action>
-        </keybind>
-
-
+        
+        
         <!-- Win + [Num] : Moverse entre los escritorios -->
         <!-- http://openbox.org/wiki/Help:Actions#GoToDesktop -->
         <keybind key="W-1">
@@ -155,6 +138,39 @@
         <keybind key="W-4">
             <action name="GoToDesktop">
                 <to>4</to>
+            </action>
+        </keybind>
+        
+        <!-- Rofi -->
+        <!-- http://openbox.org/wiki/Help:Actions#Execute -->
+        <keybind key="W-q">
+            <action name="Execute">
+                <command>rofi -show drun</command>
+            </action>
+        </keybind>
+        <keybind key="W-r">
+            <action name="Execute">
+                <command>rofi -show run</command>
+            </action>
+        </keybind>
+        <keybind key="W-S-q">
+            <action name="Execute">
+                <command>rofi -show</command>
+            </action>
+        </keybind>
+
+        <!-- Ejecutar programas -->
+
+        <!-- Firefox -->
+        <keybind key="W-b">
+            <action name="Execute">
+                <command>firefox</command>
+            </action>
+        </keybind>
+        <!-- Alacritty -->
+        <keybind key="W-Return">
+            <action name="Execute">
+                <command>alacritty</command>
             </action>
         </keybind>
 
